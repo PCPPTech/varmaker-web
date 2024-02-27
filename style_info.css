@@ -1,0 +1,68 @@
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+.container {
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+}
+nav {
+    flex: 0 0 200px;
+    background-color: #f4f4f4;
+    padding: 20px;
+    background-color: #ccc;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+main {
+    flex: 1;
+    padding: 20px;
+    text-align: center;
+}
+.info-pad {
+    padding: 10px 20px; /* Added padding */
+    font-family: 'Montserrat', sans-serif;
+    text-align: left; /* Align text to the left */
+    line-height: 30px;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+    background-color: #ccc;
+}
+li {
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+li:hover {
+    background-color: #ccc;
+}
+.sidebar {
+    flex: 0 0 200px;
+    background-color: #ccc;
+    padding: 20px;
+    border: 3px solid #333;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 30xp;
+}
+p {
+    margin: 0; /* Added to remove default margin */
+    font-family: 'Montserrat', sans-serif;
+}
+.left-side-bar{
+    flex: 0 0 200px;
+    background-color: #ccc;
+    padding: 15px;
+    border: 3px solid #333;
+    text-align: left;
+    
+}
